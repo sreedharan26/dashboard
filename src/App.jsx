@@ -16,7 +16,7 @@ import urgentGray from './assets/icons_FEtask/SVG - Urgent Priority grey.svg'
 import highPriority from './assets/icons_FEtask/Img - High Priority.svg'
 import lowPriority from './assets/icons_FEtask/Img - Low Priority.svg'
 import mediumPriority from './assets/icons_FEtask/Img - Medium Priority.svg'
-import noPriority from './assets/icons_FEtask/No-Priority.svg'
+import noPriority from './assets/icons_FEtask/No-priority.svg'
 
 
 import './App.css'
