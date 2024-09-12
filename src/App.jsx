@@ -28,7 +28,7 @@ function App() {
   const [grid, setGrid] = useState([])
   const [option1, setOption1] = useState(localStorage.getItem('option1') || 'state')
   const [option2, setOption2] = useState(localStorage.getItem('option2') || 'priority')
-  const [click, setClick] = useState(true)
+  const [click, setClick] = useState(false)
   
   // console.log(data)
   
