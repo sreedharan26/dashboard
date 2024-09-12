@@ -1,0 +1,112 @@
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: .6em .8em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.id {
+    color: rgb(174, 170, 170);
+    padding: 0;
+    margin: 0;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.image-cont {
+    position: relative;
+}
+
+.image-cont div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    right: 0;
+    bottom: 0;
+    border: 2px solid white
+
+}
+
+.true{
+    background-color: orange;
+}
+
+.false {
+    background-color: gray;
+}
+
+.sec2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.sec2 button {
+    border: none;
+    background-color: transparent;
+}
+
+.sec2 img {
+    margin: .3rem .3rem 0 0;
+}
+
+.title {
+    color: black;
+    text-align: left;
+    font-size: .9rem;
+    margin: .3rem 0 .5rem 0;
+    font-weight: 600;
+}
+
+.sec3 {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.icon {
+    margin: 0 .2em 0 0;
+    border: .5px solid rgb(199, 198, 198);
+    border-radius: 5px;
+    padding: .3rem;
+    width: .9rem;
+}
+
+
+
+.tag-cont {
+    border: .5px solid rgb(199, 198, 198);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: .2em;
+    padding: .35rem .3rem;
+}
+
+.grey-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: gray;
+}
+
+.tag {
+    margin: 0 0 0 .3em;
+    color: gray;
+    font-size: .7rem;
+}
